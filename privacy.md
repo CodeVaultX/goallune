@@ -20,7 +20,7 @@ Goallune is a big-head football game for Android. We have no accounts and no ser
 The game shows ads from **Google AdMob**:
 
 - a full-screen ad now and then after a match (never during a match, never in your first minutes of play, and never more than once every few minutes), and
-- optional **rewarded ads**: you choose to watch one, for example to double the tokens you just earned.
+- optional **rewarded ads**: you choose to watch one, for example to earn extra tokens.
 
 Ad content is limited to the "PG" (parental guidance) rating.
 
@@ -34,7 +34,7 @@ For advertising, analytics and fraud prevention, the Google Mobile Ads SDK in th
 
 This information is encrypted in transit. Ads may be personalized where this is allowed.
 
-- For ads, the game uses the Android permissions for internet access, network state and the advertising ID (the Google Mobile Ads SDK also adds permissions to read basic phone state and to keep the device awake while an ad plays).
+- For ads, the game uses the Android permissions for internet access, network state and the advertising ID (the Google Mobile Ads SDK also adds permissions to read basic phone state, to check the network connection, to keep the device awake and to run short background tasks while an ad plays).
 - **In the European Economic Area, the UK and Switzerland**, the game asks for your consent the first time you open it. You can change your choice at any time with the privacy options button in the menu.
 - **Everywhere**, you can reset or delete your Advertising ID in your phone's Android settings.
 - How Google uses information from apps that use its services: <https://policies.google.com/technologies/partner-sites>
@@ -88,7 +88,7 @@ Goallune, Android için büyük kafalı bir futbol oyunudur. Hesap ve sunucumuz 
 Oyun **Google AdMob** reklamları gösterir:
 
 - bir maçtan sonra ara sıra tam ekran bir reklam (maç sırasında hiç, oynamanın ilk dakikalarında hiç ve birkaç dakikada birden sık değil),
-- isteğe bağlı **ödüllü reklamlar**: örneğin az önce kazandığın jetonları ikiye katlamak için izlemeyi sen seçersin.
+- isteğe bağlı **ödüllü reklamlar**: örneğin fazladan jeton kazanmak için izlemeyi sen seçersin.
 
 Reklam içeriği "PG" (ebeveyn gözetimi) derecesiyle sınırlıdır.
 
@@ -102,7 +102,7 @@ Reklam, analiz ve sahtekârlık önleme amacıyla oyundaki Google Mobil Reklamla
 
 Bu bilgi aktarım sırasında şifrelenir. İzin verilen yerlerde reklamlar kişiselleştirilebilir.
 
-- Reklamlar için oyun, internet erişimi, ağ durumu ve reklam kimliği Android izinlerini kullanır (Google Mobil Reklamlar SDK'sı ayrıca temel telefon durumunu okuma ve reklam oynarken cihazı uyanık tutma izinlerini de ekler).
+- Reklamlar için oyun, internet erişimi, ağ durumu ve reklam kimliği Android izinlerini kullanır (Google Mobil Reklamlar SDK'sı ayrıca temel telefon durumunu okuma, ağ bağlantısını denetleme, cihazı uyanık tutma ve reklam oynarken kısa arka plan görevleri çalıştırma izinlerini de ekler).
 - **Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de** oyun ilk açılışta iznini ister. Seçimini istediğin zaman menüdeki gizlilik seçenekleri düğmesiyle değiştirebilirsin.
 - **Her yerde** Reklam Kimliğini telefonunun Android ayarlarından sıfırlayabilir ya da silebilirsin.
 - Google'ın hizmetlerini kullanan uygulamalardan gelen bilgiyi nasıl kullandığı: <https://policies.google.com/technologies/partner-sites>
