@@ -34,6 +34,7 @@ For advertising, analytics and fraud prevention, the Google Mobile Ads SDK in th
 
 This information is encrypted in transit. Ads may be personalized where this is allowed.
 
+- For ads, the game uses the Android permissions for internet access, network state and the advertising ID (the Google Mobile Ads SDK also adds permissions to read basic phone state and to keep the device awake while an ad plays).
 - **In the European Economic Area, the UK and Switzerland**, the game asks for your consent the first time you open it. You can change your choice at any time with the privacy options button in the menu.
 - **Everywhere**, you can reset or delete your Advertising ID in your phone's Android settings.
 - How Google uses information from apps that use its services: <https://policies.google.com/technologies/partner-sites>
@@ -101,6 +102,7 @@ Reklam, analiz ve sahtekârlık önleme amacıyla oyundaki Google Mobil Reklamla
 
 Bu bilgi aktarım sırasında şifrelenir. İzin verilen yerlerde reklamlar kişiselleştirilebilir.
 
+- Reklamlar için oyun, internet erişimi, ağ durumu ve reklam kimliği Android izinlerini kullanır (Google Mobil Reklamlar SDK'sı ayrıca temel telefon durumunu okuma ve reklam oynarken cihazı uyanık tutma izinlerini de ekler).
 - **Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de** oyun ilk açılışta iznini ister. Seçimini istediğin zaman menüdeki gizlilik seçenekleri düğmesiyle değiştirebilirsin.
 - **Her yerde** Reklam Kimliğini telefonunun Android ayarlarından sıfırlayabilir ya da silebilirsin.
 - Google'ın hizmetlerini kullanan uygulamalardan gelen bilgiyi nasıl kullandığı: <https://policies.google.com/technologies/partner-sites>
